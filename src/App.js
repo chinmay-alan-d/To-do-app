@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 
 function App() {
-  const [notes, setnotes] = useState(['hi first', 'hi second']);
+  const [notes, setnotes] = useState([]);
   const [note, setnote] = useState("");
 
   const handleMe = (e) => {
